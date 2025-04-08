@@ -5,24 +5,23 @@
             Margin="0 0 4 0"
             HorizontalAlignment="Center"
             VerticalAlignment="Center"
-            MinSize="32 32"
-            />
+            MinSize="32 32" />
         <Label Name="RecipeName" HorizontalExpand="True" />
         <Button
             Name="MoveUp"
             Margin="0"
             Text="⏶"
-            />
+            SetHeight="32" />
         <Button
             Name="MoveDown"
             Margin="0"
             Text="⏷"
-            />
+            SetHeight="32" />
         <Button
             Name="Delete"
             Margin="0"
             StyleClasses="Caution"
             Text="✖"
-            />
+            SetHeight="32" />
     </BoxContainer>
 </Control>
